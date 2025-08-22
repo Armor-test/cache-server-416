@@ -1,0 +1,37 @@
+# CODEOWNERS file for cache-server-416
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-logging @Armor-test/squad-ml @Armor-test/squad-tooling
+
+# Directory ownership
+/dist/ @Armor-test/team-core @Armor-test/squad-qa
+/hooks/ @Armor-test/squad-frontend @Armor-test/squad-ux @Armor-test/squad-search
+/common/ @Armor-test/team-notifications @Armor-test/squad-ml
+/pkg/ @Armor-test/unit-test @Armor-test/team-research @Armor-test/grp-integration
+/utils/ @Armor-test/squad-api @Armor-test/unit-cloud @Armor-test/team-governance
+/vendor/ @Armor-test/unit-design @Armor-test/dept-logging
+/tests/ @Armor-test/dept-release @Armor-test/grp-ui
+/api/ @Armor-test/grp-reporting @Armor-test/team-security
+/web/ @Armor-test/grp-ui @Armor-test/unit-cloud @Armor-test/dept-data
+/test/ @Armor-test/dept-notifications @Armor-test/dept-reporting @Armor-test/squad-search
+
+# File type ownership
+*.js @Armor-test/squad-ux @Armor-test/squad-research @Armor-test/squad-tooling
+*.lock @Armor-test/dept-release @Armor-test/grp-reporting @Armor-test/unit-cloud
+*.xml @Armor-test/squad-apps @Armor-test/squad-search
+*.rb @Armor-test/unit-devops @Armor-test/squad-ml
+*.swift @Armor-test/squad-cloud @Armor-test/dept-identity @Armor-test/dept-test
+*.config @Armor-test/team-governance @Armor-test/grp-integration @Armor-test/dept-notifications
+*.ts @Armor-test/grp-reporting @Armor-test/team-core
+*.cpp @Armor-test/dept-test @Armor-test/team-logging @Armor-test/squad-ux
+*.tf @Armor-test/dept-release @Armor-test/grp-storage
+*.html @Armor-test/dept-reliability @Armor-test/dept-notifications @Armor-test/team-research
+*.yml @Armor-test/dept-ui @Armor-test/squad-database @Armor-test/dept-reporting
+*.cs @Armor-test/squad-apps @Armor-test/dept-automation
+*.ini @Armor-test/dept-ui @Armor-test/unit-devops @Armor-test/dept-automation
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
